@@ -29,8 +29,13 @@ GNU v3.0
 Author Information
 ------------------
 Developed by Harshit Dawar, also known as Technologist, a public speaker, extrovert, & optimist.
-LinkedIn: https://www.linkedin.com/in/harshitdawar
-PortFolio: https://harshitdawar55,github.io
-Twitter: https://www.twitter.com/harshitdawar55
-Medium: https://www.medium.com/@harshitdawar
-GitHub: https://www.github.com/harshitdawar55
+
+**LinkedIn:** https://www.linkedin.com/in/harshitdawar
+
+**PortFolio:** https://harshitdawar55,github.io
+
+**Twitter:** https://www.twitter.com/harshitdawar55
+
+**Medium:** https://www.medium.com/@harshitdawar
+
+**GitHub:** https://www.github.com/harshitdawar55
