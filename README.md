@@ -1,4 +1,4 @@
-https://img.shields.io/badge/version-2.4-orange
+<img src="https://img.shields.io/badge/version-2.4-orange" />
 Apache-Webserver
 =========
 
