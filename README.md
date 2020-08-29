@@ -32,7 +32,7 @@ Developed by Harshit Dawar, also known as Technologist, a public speaker, extrov
 
 **LinkedIn:** https://www.linkedin.com/in/harshitdawar
 
-**PortFolio:** https://harshitdawar55,github.io
+**PortFolio:** https://harshitdawar55.github.io
 
 **Twitter:** https://www.twitter.com/harshitdawar55
 
