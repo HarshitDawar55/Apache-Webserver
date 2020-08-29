@@ -19,8 +19,7 @@ Role Variables
 Dependencies
 ------------
 
-No Dependencies
-
+Yum should be configured for its proper use!
 
 License
 -------
@@ -29,5 +28,9 @@ GNU v3.0
 
 Author Information
 ------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Developed by Harshit Dawar, also known as Technologist, a public speaker, extrovert, & optimist.
+LinkedIn: https://www.linkedin.com/in/harshitdawar
+PortFolio: https://harshitdawar55,github.io
+Twitter: https://www.twitter.com/harshitdawar55
+Medium: https://www.medium.com/@harshitdawar
+GitHub: https://www.github.com/harshitdawar55
