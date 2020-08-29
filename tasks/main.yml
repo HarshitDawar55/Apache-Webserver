@@ -1,0 +1,42 @@
+---
+# tasks file for Apache-Webserver
+- name: Installing PHP
+  package:
+    name: "php"
+    state: "present"
+
+- name: Installing Httpd Package
+  package:
+    name: "httpd"
+    state: present
+  register: httpd_status
+
+- name: Creating Document Root
+  when: httpd_status.rc == 0
+  file: 
+    state: directory
+    dest: "{{ DocRoot }}"
+  register: dir_status
+
+- name: Copying Configuration File to the custom configuration directory
+  when: httpd_status.rc == 0
+  template:
+    dest: "/etc/httpd/conf.d/HarshitDawar.conf"
+    src: templates/conf.j2
+    mode: 0666
+  notify: Trigger Httpd
+
+- name: Copy WebPage from GitHub URL
+  when: dir_status.failed == false
+  get_url:
+    dest: "{{ DocRoot }}"
+    url: "https://raw.githubusercontent.com/HarshitDawar55/Ansible/master/index.php"
+
+- name: Starting Httpd Service
+  when: httpd_status.rc == 0
+  service:
+    name: "httpd"
+    state: started
+    enabled: yes
+
+
