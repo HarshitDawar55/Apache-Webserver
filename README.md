@@ -8,7 +8,7 @@ This Ansible role is used to configure the apache webserver with a test php file
 Requirements
 ------------
 
-No Pre-requisite as such, but it depends where you are using this role, if it is been used on AWS, then the account of AWS is required.
+No Pre-requisite as such, but it depends on where you are using this role, if it is been used on AWS, then the account of AWS is required.
 
 Role Variables
 --------------
