@@ -1,7 +1,7 @@
 Apache-Webserver
 =========
 
-This role is used to configure the apache webserver with a test php file which will show the IPAddress of the host machine.
+This Ansible role is used to configure the apache webserver with a test php file which will show the IPAddress of the host machine.
 
 Requirements
 ------------
