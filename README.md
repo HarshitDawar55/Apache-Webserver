@@ -21,12 +21,12 @@ Role Variables
 Dependencies
 ------------
 
-Yum should be configured for its proper use!
+Yum should be configured for its proper use if the distribution is redhat!
 
 License
 -------
 
-GNU v3.0
+GPL v3.0
 
 Author Information
 ------------------
